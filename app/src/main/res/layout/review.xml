@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp4">
+
+    <LinearLayout
+        android:id="@+id/reviewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/reviewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Answers"
+            android:textSize="30sp"
+            android:textColor="#40024A"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. An array is a multiple items of the same data type that is stored
+                           True"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. An If statement executes a code when a condition is false.
+                                   False"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Kotlin is a programming language that is used to develop a native Android apps. True"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Boolean is an arithmetic operator.
+ False"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. An Emulator is a Hardware or Software that permits programmes written for one computer to be run on another computer. True"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Exit App"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+</ScrollView>
